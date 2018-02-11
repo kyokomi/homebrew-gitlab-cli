@@ -7,7 +7,7 @@ require "formula"
 class GitlabCli < Formula
   homepage ""
   url "https://github.com/kyokomi/gitlab-cli/releases/download/v0.1.0/gitlab-cli_darwin_amd64.zip"
-  sha1 "85026bfcff5978155d2a05fa45b491995c73b768"
+  sha256 "23d0f0bce2ebe8a9396ec6c5d62f0cdc46e8fe8081a525811711c81a934107a8"
 
   def install
     bin.install 'gitlab-cli'
